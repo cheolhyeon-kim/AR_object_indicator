@@ -63,7 +63,7 @@ while True:
         cv.putText(img, f'XYZ: [{p[0]:.3f} {p[1]:.3f} {p[2]:.3f}]', (10, 25), 
                     cv.FONT_HERSHEY_DUPLEX, 0.6, (0, 255, 0))
 
-    cv.imshow('HW4: Spinning Diamond (Kim Chul-hyeon)', img)
+    cv.imshow('Diamond_on_chessboard', img)
     frame_count += 1
     key = cv.waitKey(10)
     if key == ord(' '): cv.waitKey()
