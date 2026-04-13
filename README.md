@@ -5,15 +5,14 @@
 
 본 프로젝트는 카메라 캘리브레이션 데이터와 체스판 패턴을 활용하여 카메라의 3차원 자세를 추정하고, 이를 기반으로 동적인 AR 물체를 영상에 합성하는 openCV 프로젝트입니다.
 
+**<아무것도 없었을 때 보드 이미지>**
+
+<img width="900" height="459" alt="image" src="https://github.com/user-attachments/assets/84fe53af-4962-4612-bb77-636b928d6a56" />
 ---
 
 ##  주요 기능
 
 본 저장소는 두 가지 서로 다른 AR 구현 방식을 포함하고 있습니다.
-
-**<아무것도 없었을 때 보드 이미지>**
-<img width="900" height="459" alt="image" src="https://github.com/user-attachments/assets/84fe53af-4962-4612-bb77-636b928d6a56" />
-
 
 ### 1. Watch Out for Sharks! (`watch_out_for_sharks.py`)
 **크로마키 합성**: 초록색 배경의 상어 비디오 소스를 실시간으로 마스킹 처리하여 배경을 제거합니다.
@@ -26,6 +25,13 @@
 
 <img width="1596" height="938" alt="스크린샷 2026-04-14 025732" src="https://github.com/user-attachments/assets/c8668e2b-d40e-4696-97b3-4904f9045714" />
 
+**<상어를 넣은 영상>**
+
+
+https://github.com/user-attachments/assets/8c54c14b-9f34-447c-9594-949f5c006cc4
+
+
+
 
 
 ### 2. Spinning Diamond (`Diamond_on_chessboard.py`)
@@ -37,9 +43,12 @@
 
 
 **<다이아몬드를 넣은 영상 이미지>**
+
 <img width="1604" height="937" alt="스크린샷 2026-04-14 031904" src="https://github.com/user-attachments/assets/517b072f-e4ce-428d-b790-c24729c55725" />
 
+**<다이아몬드를 넣은 영상>**
 
+https://github.com/user-attachments/assets/91ed37d3-b716-4bc1-96f1-58aeb8c49427
 
 ---
 
