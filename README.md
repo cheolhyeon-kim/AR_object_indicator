@@ -37,6 +37,9 @@
 
 
 **<다이아몬드를 넣은 영상 이미지>**
+<img width="1604" height="937" alt="스크린샷 2026-04-14 031904" src="https://github.com/user-attachments/assets/517b072f-e4ce-428d-b790-c24729c55725" />
+
+
 
 ---
 
