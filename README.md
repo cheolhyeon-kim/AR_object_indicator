@@ -11,15 +11,32 @@
 
 본 저장소는 두 가지 서로 다른 AR 구현 방식을 포함하고 있습니다.
 
+**<아무것도 없었을 때 보드 이미지>**
+<img width="900" height="459" alt="image" src="https://github.com/user-attachments/assets/84fe53af-4962-4612-bb77-636b928d6a56" />
+
+
 ### 1. Watch Out for Sharks! (`watch_out_for_sharks.py`)
 **크로마키 합성**: 초록색 배경의 상어 비디오 소스를 실시간으로 마스킹 처리하여 배경을 제거합니다.
+
 **공간감 구현**: 상어 영상을 체스판 위 공중에 띄워 실제 공간에서 헤엄치는 듯한 효과를 줍니다.
+
 **투영 변환**: `solvePnP`로 구한 자세 정보를 바탕으로 `warpPerspective`를 적용하여 카메라 움직임에 따라 상어의 원근감이 실시간으로 변화합니다.
+
+**<상어를 넣은 영상 이미지>**
+
+<img width="1596" height="938" alt="스크린샷 2026-04-14 025732" src="https://github.com/user-attachments/assets/c8668e2b-d40e-4696-97b3-4904f9045714" />
+
+
 
 ### 2. Spinning Diamond (`Diamond_on_chessboard.py`)
 **3D 모델링**: 다이아몬드형태의 3D 정점과 에지를 직접 정의하여 시각화합니다.
+
 **실시간 애니메이션**: 프레임 카운트와 삼각함수를 활용해 다이아몬드가 스스로 회전하는 애니메이션 효과를 추가했습니다.
+
 **와이어프레임 렌더링**: `projectPoints`를 통해 3D 좌표를 2D 이미지 평면으로 정합하여 자연스러운 입체감을 제공합니다.
+
+
+**<다이아몬드를 넣은 영상 이미지>**
 
 ---
 
